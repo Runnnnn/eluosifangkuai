@@ -1,7 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #game {
+    left: 20%;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 20%;
     width: 200px;
     height: 400px;
     background-color: #fafaff;
@@ -11,8 +16,8 @@
 
 #next {
     position: absolute;
-    top: 10px;
-    left: 230px;
+    top: 20%;
+    left: 36%;
     width: 80px;
     height: 80px;
     background-color: #fafaff;
@@ -20,9 +25,10 @@
 }
 
 #info {
+    background: #ccc;
     position: absolute;
-    top: 100px;
-    left: 230px;
+    top: 35%;
+    left: 36%;
 }
 
 .none, .current, .done {
